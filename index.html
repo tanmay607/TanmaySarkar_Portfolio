@@ -3,173 +3,242 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Tanmay Sarkar | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+<title>Dr. Tanmay Sarkar | Academic Portfolio</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    scroll-behavior:smooth;
+}
+
+header{
+    background:linear-gradient(135deg,#002147,#004080);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:32px;
+    font-weight:700;
+}
+
+header p{
+    font-size:18px;
+    margin-top:10px;
+    font-weight:300;
+}
+
+nav{
+    background:#00152b;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#00bfff;
+}
+
+section{
+    padding:60px 10%;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:28px;
+    color:#002147;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:8px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.card h3{
+    color:#004080;
+    margin-bottom:10px;
+}
+
+.card a{
+    color:#0066cc;
+    text-decoration:none;
+}
+
+.card a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    background:#002147;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.sub-section{
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+    section{
+        padding:40px 20px;
+    }
+}
+</style>
 </head>
 
 <body>
 
-<header class="hero">
-    <img src="tanmay.jpg" alt="Dr. Tanmay Sarkar">
+<header>
+    <img src="WhatsApp Image 2026-02-24 at 16.31.23.jpeg" alt="Dr Tanmay Sarkar">
     <h1>Dr. Tanmay Sarkar</h1>
-    <p><span class="typing"></span></p>
-    <a href="Tanmay_Sarkar_CV.pdf" class="btn" download>Download CV</a>
+    <p>Ph.D. (Engineering) | Food Technology | Researcher | Academic</p>
 </header>
 
 <nav>
     <a href="#about">About</a>
     <a href="#education">Education</a>
-    <a href="#technical">Technical</a>
-    <a href="#certificates">Certificates</a>
-    <a href="#books">Books</a>
+    <a href="#position">Position Held</a>
+    <a href="#publication">Publication</a>
+    <a href="#research">Research Interest</a>
     <a href="#contact">Contact</a>
 </nav>
 
-<section id="about" class="fade">
-    <h2>About Me</h2>
+<section id="about">
+    <h2>About</h2>
     <div class="card">
         <p>
-            I am Dr. Tanmay Sarkar, a lecturer in the Department of Food Processing Technology at Malda Polytechnic. 
-            My primary interests are in functional food development, artificial intelligence in food science, bioactive compound extraction, and food fortification.
+        Dr. Tanmay Sarkar is a Food Technology academician and researcher 
+        specializing in Functional Foods, Artificial Intelligence in Food Science, 
+        Optimization Techniques, Bioactive Compounds and Food Fortification. 
+        Currently serving as Lecturer at Department of Food Processing Technology, 
+        Malda Polytechnic, West Bengal.
         </p>
     </div>
 </section>
 
-<section id="education" class="fade">
-    <h2>Education</h2>
+<section id="education">
+    <h2>Academic Background</h2>
+
     <div class="card">
-        <h3>Ph.D. in Engineering (2021)</h3>
-        <p>Department of Food Technology and Biochemical Engineering, Jadavpur University, Kolkata, India</p>
+        <h3>Ph.D. (Engineering) – 2016–2021</h3>
+        <p>Department of Food Technology & Biochemical Engineering, Jadavpur University, Kolkata</p>
     </div>
+
     <div class="card">
-        <h3>M.Tech (2014)</h3>
-        <p>Department of Food Technology and Biochemical Engineering, Jadavpur University, Kolkata, India</p>
+        <h3>M.Tech – 2012–2014</h3>
+        <p>Department of Food Technology & Biochemical Engineering, Jadavpur University, Kolkata</p>
     </div>
+
     <div class="card">
-        <h3>B.Tech (2012)</h3>
-        <p>Department of Food Technology and Biochemical Engineering, Jadavpur University, Kolkata, India</p>
+        <h3>B.Tech – 2009–2012</h3>
+        <p>Department of Food Technology & Biochemical Engineering, Jadavpur University, Kolkata</p>
     </div>
 </section>
 
-<section id="technical" class="fade">
-    <h2>Technical Qualification</h2>
+<section id="position">
+    <h2>Position Held</h2>
+
     <div class="card">
-        <h3>Lecturer in Food Processing Technology</h3>
-        <p>Malda Polytechnic, West Bengal State Council of Technical Education, Govt. of West Bengal, India (2018 - present)</p>
+        <h3>Lecturer (April 2018 – Present)</h3>
+        <p>Department of Food Processing Technology, Malda Polytechnic, West Bengal</p>
     </div>
+
     <div class="card">
-        <h3>Assistant Professor</h3>
-        <p>Ghani Khan Choudhury Institute of Engineering & Technology (GKCIET), Malda, West Bengal, India (2014 - 2015)</p>
+        <h3>Guest Lecturer (2014–2015)</h3>
+        <p>Guru Nanak Institute of Technology (GNIT), Kolkata</p>
+    </div>
+
+    <div class="card">
+        <h3>Assistant Professor (2014–2015)</h3>
+        <p>Ghani Khan Choudhury Institute of Engineering & Technology (GKCIET), Malda</p>
     </div>
 </section>
 
-<section id="certificates" class="fade">
-    <h2>Certificates</h2>
-    <div class="card">
-        <h3>GATE, Govt. of India</h3>
-        <p>Engineering Science (XE), 2012</p>
+<section id="publication">
+    <h2>Publications</h2>
+
+    <div class="sub-section">
+        <h3>Books</h3>
+
+        <div class="card"><a href="https://www.researchgate.net/publication/358038209_Bio_Prospecting_of_Natural_Compounds_in_Food_Pharmaceutical_and_Biomedical_Science" target="_blank">Bio-Prospecting of Natural Compounds</a></div>
+        <div class="card"><a href="https://www.researchgate.net/publication/360243128_Recent_Frontiers_of_Phytochemicals_Applications_in_Food_Pharmaceutical_and_Biomedical_Science" target="_blank">Recent Frontiers of Phytochemicals</a></div>
+        <div class="card"><a href="https://link.springer.com/book/10.1007/978-1-0716-3601-5" target="_blank">Springer Book Publication</a></div>
+        <div class="card"><a href="https://www.researchgate.net/publication/394850662_Functional_Food_as_a_Nutritional_Countermeasure_to_Health_Risks_from_Microgravity_and_Space_Radiation_in_Long-Term_Spaceflights_A_Review" target="_blank">Functional Food & Space Health</a></div>
+        <div class="card"><a href="https://link.springer.com/book/10.1007/978-1-0716-4346-4" target="_blank">Springer Academic Book</a></div>
+        <div class="card"><a href="https://www.researchgate.net/publication/398370586_Integrating_Statistical_and_Machine-Learning_Approaches_for_Salmonella_enterica_Surveillance_in_Northwestern_Italy_A_One_Health_Data-Driven_Framework" target="_blank">Machine Learning for Salmonella Surveillance</a></div>
+        <div class="card"><a href="https://shop.elsevier.com/books/phytoceuticals-in-food-for-health-and-wellness/sarkar/978-0-443-26494-8" target="_blank">Phytoceuticals in Food for Health & Wellness</a></div>
+        <div class="card"><a href="https://shop.elsevier.com/books/health-nutrition-and-sustainability/sarkar/978-0-443-32920-3" target="_blank">Health, Nutrition & Sustainability</a></div>
+        <div class="card"><a href="https://www.researchgate.net/publication/397754611_Dietary_Sensory_and_Gastronomic_Applications_Exploring_Unconventional_Food_Sources_Volume_2" target="_blank">Dietary & Gastronomic Applications</a></div>
+
     </div>
+
+    <div class="sub-section">
+        <h3>Journal Publications</h3>
+        <div class="card">Publications in reputed journals including Elsevier, Wiley, Springer, MDPI, Frontiers, Cell Press (Heliyon) and more.</div>
+    </div>
+
+    <div class="sub-section">
+        <h3>Conference Publications</h3>
+        <div class="card">Conference papers published in Springer, IEEE Xplore and International Proceedings.</div>
+    </div>
+
+</section>
+
+<section id="research">
+    <h2>Research Interests</h2>
     <div class="card">
-        <h3>Rajib Gandhi National Fellowship</h3>
-        <p>University Grant Commission, Govt. of India</p>
+        Functional Food Development |
+        Artificial Intelligence in Food Science |
+        Optimization Techniques |
+        Bioactive Compound Extraction |
+        Food Fortification |
+        Bio-Prospecting
     </div>
 </section>
 
-<section id="books" class="fade">
-    <h2>Books</h2>
-
-    <div class="card">
-        <h3>Unleashing the Power of Functional Foods and Novel Bioactives</h3>
-        <a href="https://link.springer.com/book/10.1007/978-1-0716-3601-5" class="btn" target="_blank">View Book</a>
-    </div>
-
-    <div class="card">
-        <h3>Fortified Foods</h3>
-        <a href="https://link.springer.com/book/10.1007/978-1-0716-4346-4" class="btn" target="_blank">View Book</a>
-    </div>
-
-    <div class="card">
-        <h3>Artificial Intelligence in Food Science: Transforming Food and Bioprocess Development</h3>
-        <a href="https://link.springer.com/book/10.1007/978-1-0716-4787-5" class="btn" target="_blank">View Book</a>
-    </div>
-
-    <div class="card">
-        <h3>Phytochemicals in Food for Health and Wellness: Harnessing Plant Therapeutics</h3>
-        <a href="https://link.springer.com/book/10.1007/978-1-0716-3601-5" class="btn" target="_blank">View Book</a>
-    </div>
-    
-    <!-- More books can be added similarly -->
-</section>
-
-<section id="contact" class="fade">
+<section id="contact">
     <h2>Contact</h2>
     <div class="card">
-        <p>Email: <a href="mailto:tanmays468@gmail.com">tanmays468@gmail.com</a></p>
-        <p>Mobile: +91-9875482928</p>
-
-        <div class="social">
-            <a href="https://www.linkedin.com/in/tanmay-sarkar/" target="_blank">LinkedIn</a>
-            <a href="https://scholar.google.com/citations?hl=en&user=ZIW23CAAAAJ" target="_blank">Google Scholar</a>
-        </div>
+        <p>Email: tanmays468@gmail.com</p>
+        <p>Location: West Bengal, India</p>
     </div>
 </section>
 
 <footer>
-    <p>© 2026 Dr. Tanmay Sarkar | All Rights Reserved</p>
+    © 2026 Dr. Tanmay Sarkar | Academic Portfolio
 </footer>
-
-<!-- Typing Script -->
-<script>
-const textArray = [
-"Functional Food Expert",
-"AI Enthusiast in Food Science",
-"Book Editor in Food Technology"
-];
-
-let typingElement = document.querySelector(".typing");
-let textIndex = 0;
-let charIndex = 0;
-
-function typeEffect() {
-    if (charIndex < textArray[textIndex].length) {
-        typingElement.textContent += textArray[textIndex].charAt(charIndex);
-        charIndex++;
-        setTimeout(typeEffect, 80);
-    } else {
-        setTimeout(eraseEffect, 1500);
-    }
-}
-
-function eraseEffect() {
-    if (charIndex > 0) {
-        typingElement.textContent = textArray[textIndex].substring(0, charIndex - 1);
-        charIndex--;
-        setTimeout(eraseEffect, 40);
-    } else {
-        textIndex++;
-        if (textIndex >= textArray.length) textIndex = 0;
-        setTimeout(typeEffect, 300);
-    }
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-    setTimeout(typeEffect, 500);
-});
-</script>
-
-<script>
-const faders = document.querySelectorAll(".fade");
-
-window.addEventListener("scroll", () => {
-    faders.forEach(section => {
-        const rect = section.getBoundingClientRect();
-        if (rect.top < window.innerHeight - 100) {
-            section.classList.add("show");
-        }
-    });
-});
-</script>
 
 </body>
 </html>
