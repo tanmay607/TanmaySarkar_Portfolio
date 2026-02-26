@@ -4,131 +4,104 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dr. Tanmay Sarkar | Portfolio</title>
-
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- HERO -->
 <header class="hero">
     <img src="tanmay.jpg" alt="Dr. Tanmay Sarkar">
     <h1>Dr. Tanmay Sarkar</h1>
-    <p class="typing"></p>
+    <p><span class="typing"></span></p>
     <a href="Tanmay_Sarkar_CV.pdf" class="btn" download>Download CV</a>
 </header>
 
-<!-- NAVBAR -->
 <nav>
     <a href="#about">About</a>
     <a href="#education">Education</a>
-    <a href="#position">Position Held</a>
+    <a href="#technical">Technical</a>
     <a href="#certificates">Certificates</a>
-    <a href="#publications">Publications</a>
+    <a href="#books">Books</a>
     <a href="#contact">Contact</a>
 </nav>
 
-<!-- ABOUT -->
 <section id="about" class="fade">
     <h2>About Me</h2>
     <div class="card">
         <p>
-            Dr. Tanmay Sarkar is a Lecturer in Food Processing Technology at Malda Polytechnic. 
-            His research interests include functional foods, artificial intelligence in food science, 
-            bioactive compound extraction, and food fortification.
+            I am Dr. Tanmay Sarkar, a lecturer in the Department of Food Processing Technology at Malda Polytechnic. 
+            My primary interests are in functional food development, artificial intelligence in food science, bioactive compound extraction, and food fortification.
         </p>
     </div>
 </section>
 
-<!-- EDUCATION -->
 <section id="education" class="fade">
     <h2>Education</h2>
-
     <div class="card">
         <h3>Ph.D. in Engineering (2021)</h3>
-        <p>Jadavpur University, Kolkata</p>
+        <p>Department of Food Technology and Biochemical Engineering, Jadavpur University, Kolkata, India</p>
     </div>
-
     <div class="card">
         <h3>M.Tech (2014)</h3>
-        <p>Jadavpur University, Kolkata</p>
+        <p>Department of Food Technology and Biochemical Engineering, Jadavpur University, Kolkata, India</p>
     </div>
-
     <div class="card">
         <h3>B.Tech (2012)</h3>
-        <p>Jadavpur University, Kolkata</p>
+        <p>Department of Food Technology and Biochemical Engineering, Jadavpur University, Kolkata, India</p>
     </div>
 </section>
 
-<!-- POSITION HELD -->
-<section id="position" class="fade">
-    <h2>Position Held</h2>
-
+<section id="technical" class="fade">
+    <h2>Technical Qualification</h2>
     <div class="card">
         <h3>Lecturer in Food Processing Technology</h3>
-        <p>Malda Polytechnic, Govt. of West Bengal (2018 - Present)</p>
+        <p>Malda Polytechnic, West Bengal State Council of Technical Education, Govt. of West Bengal, India (2018 - present)</p>
     </div>
-
     <div class="card">
         <h3>Assistant Professor</h3>
-        <p>Ghani Khan Choudhury Institute of Engineering & Technology (2014 - 2015)</p>
+        <p>Ghani Khan Choudhury Institute of Engineering & Technology (GKCIET), Malda, West Bengal, India (2014 - 2015)</p>
     </div>
 </section>
 
-<!-- CERTIFICATES -->
 <section id="certificates" class="fade">
     <h2>Certificates</h2>
-
     <div class="card">
-        <h3>GATE Qualified</h3>
+        <h3>GATE, Govt. of India</h3>
         <p>Engineering Science (XE), 2012</p>
     </div>
-
     <div class="card">
-        <h3>Rajiv Gandhi National Fellowship</h3>
-        <p>University Grants Commission, Govt. of India</p>
+        <h3>Rajib Gandhi National Fellowship</h3>
+        <p>University Grant Commission, Govt. of India</p>
     </div>
 </section>
 
-<!-- PUBLICATIONS -->
-<section id="publications" class="fade">
-    <h2>Publications</h2>
-
-    <h3 class="subheading">Books</h3>
+<section id="books" class="fade">
+    <h2>Books</h2>
 
     <div class="card">
-        <h4>Unleashing the Power of Functional Foods and Novel Bioactives</h4>
+        <h3>Unleashing the Power of Functional Foods and Novel Bioactives</h3>
         <a href="https://link.springer.com/book/10.1007/978-1-0716-3601-5" class="btn" target="_blank">View Book</a>
     </div>
 
     <div class="card">
-        <h4>Fortified Foods</h4>
+        <h3>Fortified Foods</h3>
         <a href="https://link.springer.com/book/10.1007/978-1-0716-4346-4" class="btn" target="_blank">View Book</a>
     </div>
 
     <div class="card">
-        <h4>Artificial Intelligence in Food Science</h4>
+        <h3>Artificial Intelligence in Food Science: Transforming Food and Bioprocess Development</h3>
         <a href="https://link.springer.com/book/10.1007/978-1-0716-4787-5" class="btn" target="_blank">View Book</a>
     </div>
 
     <div class="card">
-        <h4>Phytochemicals in Food for Health and Wellness</h4>
+        <h3>Phytochemicals in Food for Health and Wellness: Harnessing Plant Therapeutics</h3>
         <a href="https://link.springer.com/book/10.1007/978-1-0716-3601-5" class="btn" target="_blank">View Book</a>
     </div>
-
-    <h3 class="subheading">Academic Journey</h3>
-    <div class="card">
-        <p>Details will be added soon.</p>
-    </div>
-
-    <h3 class="subheading">Conference</h3>
-    <div class="card">
-        <p>Details will be added soon.</p>
-    </div>
+    
+    <!-- More books can be added similarly -->
 </section>
 
-<!-- CONTACT -->
 <section id="contact" class="fade">
     <h2>Contact</h2>
     <div class="card">
@@ -146,38 +119,45 @@
     <p>© 2026 Dr. Tanmay Sarkar | All Rights Reserved</p>
 </footer>
 
-<!-- Typing Effect -->
+<!-- Typing Script -->
 <script>
-const texts = [
+const textArray = [
 "Functional Food Expert",
-"AI in Food Science",
-"Book Editor"
+"AI Enthusiast in Food Science",
+"Book Editor in Food Technology"
 ];
 
-let count = 0;
-let index = 0;
-let currentText = '';
-let letter = '';
+let typingElement = document.querySelector(".typing");
+let textIndex = 0;
+let charIndex = 0;
 
-(function type(){
-    if(count === texts.length){
-        count = 0;
+function typeEffect() {
+    if (charIndex < textArray[textIndex].length) {
+        typingElement.textContent += textArray[textIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(typeEffect, 80);
+    } else {
+        setTimeout(eraseEffect, 1500);
     }
-    currentText = texts[count];
-    letter = currentText.slice(0, ++index);
+}
 
-    document.querySelector('.typing').textContent = letter;
-
-    if(letter.length === currentText.length){
-        count++;
-        index = 0;
+function eraseEffect() {
+    if (charIndex > 0) {
+        typingElement.textContent = textArray[textIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(eraseEffect, 40);
+    } else {
+        textIndex++;
+        if (textIndex >= textArray.length) textIndex = 0;
+        setTimeout(typeEffect, 300);
     }
+}
 
-    setTimeout(type, 100);
-})();
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(typeEffect, 500);
+});
 </script>
 
-<!-- Fade Animation -->
 <script>
 const faders = document.querySelectorAll(".fade");
 
